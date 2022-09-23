@@ -27,13 +27,13 @@ export const Intro = () => {
                 </div>
                 <button className="button i-button">Contrate-me</button>
                 <div className="i-icons">
-                    <a href="https://github.com/devdavidedson" target={'_blank'}>
+                    <a href="https://github.com/devdavidedson" target='_blank' rel="noopener noreferrer">
                         <img src={Github} alt="github-icon" />
                     </a>
-                    <a href="https://www.linkedin.com/in/devdavidedson/" target={'_blank'}>
+                    <a href="https://www.linkedin.com/in/devdavidedson/" target='_blank' rel="noopener noreferrer">
                         <img src={LinkedIn} alt="linkedin-icon" />
                     </a>
-                    <a href="https://www.instagram.com/dmi.atelie/" target={'_blank'}>
+                    <a href="https://www.instagram.com/dmi.atelie/" target='_blank' rel="noopener noreferrer">
                         <img src={Instagram} alt="insta-icon" />
                     </a>
                 </div>
