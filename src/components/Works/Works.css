@@ -67,11 +67,32 @@
 }
 .blueCircle{
     background: #1949B8;
-    left: 9rem;
+    left: 18rem;
     top: -1rem;
 }
 .yellowCircle{
     background: #F5C32C;
-    left: 9rem;
+    left: 18rem;
     top: 6rem;
+}
+
+@media screen and (max-width: 480px) {
+    .works{
+        flex-direction: column;
+        height: 55rem;
+        padding: 0;
+        gap: 5rem;
+    }
+    .w-right{
+        display: flex;
+        align-items: flex-start;
+        justify-content: start;
+        transform: scale(0.7);
+    }
+    .w-mainCircle{
+        position: static;
+    }
+    .w-backCircle{
+        left: 8rem!important;
+    }
 }

@@ -45,7 +45,7 @@ export const Testmonials = () => {
         }
     ]
     return(
-        <div className="t-wrapper">
+        <div className="t-wrapper" id="Testmonials">
             <div className="t-heading">
                 <span>Clientes sempre recebem</span>
                 <span> Trabalhos excepcionais</span>

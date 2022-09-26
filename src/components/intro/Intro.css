@@ -31,7 +31,7 @@
     margin-top: 10px;
 }
 .i-button{
-    width: 7rem;
+    width: 8rem;
     height: 2rem;
 }
 .i-icons{
@@ -88,3 +88,21 @@
     left: 56%;
 
 }
+
+@media screen and (max-width: 480px) {
+    .intro {
+        flex-direction: column;
+        height: 64rem;
+        gap: 7rem;
+    }
+    .i-right{
+        transform: scale(0.8);
+        left: -3rem;
+    }
+    .i-right .blur{
+        display: none;
+    }
+    .floating-div:nth-last-of-type(1) {
+        top: -7rem ! important;
+    }
+  }

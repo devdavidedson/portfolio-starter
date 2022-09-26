@@ -5,12 +5,20 @@ import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
+import { themeContext } from "../../Context";
+import { useContext } from "react";
+import {motion} from 'framer-motion';
+
 
 export const Works = () => {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
     return(
         <div className="works">
             <div className="awesome">
-                <span>Trabalhei para <br /> Todas Essas</span>
+                <span style={{color: darkMode? 'white': ''}}>Trabalhei para <br /> Todas Essas</span>
                 <span>Marcas &#38; Clientes</span>
                 <spane>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -28,7 +36,12 @@ export const Works = () => {
         
         {/*Lado direito */}
             <div className="w-right">
-                <div className="w-mainCircle">
+                <motion.div 
+                initial={{ rotate: 45 }}
+                whileInView={{ rotate: 0 }}
+                viewport={{margin: '-40px'}}
+                transition={{duration: 3.5, type: 'spring'}}
+                className="w-mainCircle">
                     <div className="w-secCircle">
                         <img src={Upwork} alt="" />
                     </div>
@@ -43,11 +56,13 @@ export const Works = () => {
                     </div>
                     <div className="w-secCircle">
                         <img src={Facebook} alt="" />
-                    </div>
-                    {/* background circles */}
-                    <div className="w-backCircle blueCircle"></div>
-                    <div className="w-backCircle yellowCircle"></div>
-                </div>
+                    </div>                    
+                </motion.div>
+                
+                {/* background circles */}
+                
+                <div className="w-backCircle blueCircle"></div>
+                <div className="w-backCircle yellowCircle"></div>
             </div>        
         </div>
     );

@@ -6,12 +6,18 @@ import RslTomaz from '../../img/rsltomaz.png';
 import InstaPort from '../../img/instaport.png';
 import MusicApp from '../../img/musicapp.png';
 import 'swiper/css';
+import { themeContext } from "../../Context";
+import { useContext } from "react";
 
 export const Portfolio = () => {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
     return(
-        <div className="portfolio">
+        <div className="portfolio" id="Portfolio">
             {/* Heading */}
-            <span>Projetos Recentes</span>
+            <span style={{color: darkMode? 'white': ''}}>Projetos Recentes</span>
             <span>Portfólio</span>
 
             {/* Sliders */}
