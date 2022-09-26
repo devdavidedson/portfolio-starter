@@ -69,7 +69,7 @@ export const Intro = () => {
                 whileInView= {{left: '0rem'}}
                 transition={transition}
                 style={{top:'18rem', left: '0rem'}}  className="floating-div" >
-                    <FloatingDiv image={thumbup} txt1='Premio de' txt2='Melhor Desing'/>
+                    <FloatingDiv image={thumbup} txt1='Prêmio de' txt2='Melhor Design'/>
                 </motion.div>
                 {/* blur divs */}
                 <div className="blur"

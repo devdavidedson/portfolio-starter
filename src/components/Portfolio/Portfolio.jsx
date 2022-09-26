@@ -3,8 +3,8 @@ import './Portfolio.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Cordel from '../../img/cordel.png';
 import RslTomaz from '../../img/rsltomaz.png';
-import InstaPort from '../../img/instaport.png';
-import MusicApp from '../../img/musicapp.png';
+import InstaPort from '../../img/instaport1.png';
+import Bugdroid from '../../img/bugdroid.png';
 import 'swiper/css';
 import { themeContext } from "../../Context";
 import { useContext } from "react";
@@ -37,7 +37,7 @@ export const Portfolio = () => {
                     <img src={InstaPort} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={MusicApp} alt="" />
+                    <img src={Bugdroid} alt="" />
                 </SwiperSlide>
             </Swiper>
 
