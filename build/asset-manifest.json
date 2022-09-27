@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b627d07b.css",
-    "main.js": "/static/js/main.8bafeb26.js",
+    "main.js": "/static/js/main.4bd1c10f.js",
     "static/media/cordel.png": "/static/media/cordel.432697931b8600c74219.png",
-    "static/media/instaport.png": "/static/media/instaport.9abd326ad6aa48fa932b.png",
+    "static/media/instaport1.png": "/static/media/instaport1.9b657b8c0753b8653e0a.png",
     "static/media/rsltomaz.png": "/static/media/rsltomaz.c842247a5d27cf5981f0.png",
+    "static/media/bugdroid.png": "/static/media/bugdroid.4316b405d7fd4fa9199e.png",
     "static/media/David-Edson.pdf": "/static/media/David-Edson.cf0b3d1d1b6f3d7f0451.pdf",
-    "static/media/musicapp.png": "/static/media/musicapp.f1c301f91904ef5f9249.png",
     "static/media/boy1.png": "/static/media/boy1.7c3c2d374a94458aab03.png",
     "static/media/glassesimoji.png": "/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/thumbup.png": "/static/media/thumbup.e06790ba656f0397cbe5.png",
@@ -19,10 +19,10 @@
     "static/media/glasses.png": "/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/index.html",
     "main.b627d07b.css.map": "/static/css/main.b627d07b.css.map",
-    "main.8bafeb26.js.map": "/static/js/main.8bafeb26.js.map"
+    "main.4bd1c10f.js.map": "/static/js/main.4bd1c10f.js.map"
   },
   "entrypoints": [
     "static/css/main.b627d07b.css",
-    "static/js/main.8bafeb26.js"
+    "static/js/main.4bd1c10f.js"
   ]
 }

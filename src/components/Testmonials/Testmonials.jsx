@@ -15,33 +15,27 @@ export const Testmonials = () => {
     const clients=[
         {
             img: profilePic1,
-            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies. Vestibulum non dictum nibh. Phasellus efficitur blandit ipsum, sit amet venenatis tellus consectetur id. Sed porttitor nisl quis ultricies malesuada. Maecenas felis ipsum, molestie a elementum at, rutrum a nulla",
-        
+            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies."
         },
         {
             img: profilePic2,
-            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies. Vestibulum non dictum nibh. Phasellus efficitur blandit ipsum, sit amet venenatis tellus consectetur id. Sed porttitor nisl quis ultricies malesuada. Maecenas felis ipsum, molestie a elementum at, rutrum a nulla",
-        
+            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies."
         },
         {
             img: profilePic3,
-            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies. Vestibulum non dictum nibh. Phasellus efficitur blandit ipsum, sit amet venenatis tellus consectetur id. Sed porttitor nisl quis ultricies malesuada. Maecenas felis ipsum, molestie a elementum at, rutrum a nulla",
-        
+            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies."
         },
         {
             img: profilePic4,
-            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies. Vestibulum non dictum nibh. Phasellus efficitur blandit ipsum, sit amet venenatis tellus consectetur id. Sed porttitor nisl quis ultricies malesuada. Maecenas felis ipsum, molestie a elementum at, rutrum a nulla",
-        
+            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies."
         },
         {
             img: profilePic5,
-            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies. Vestibulum non dictum nibh. Phasellus efficitur blandit ipsum, sit amet venenatis tellus consectetur id. Sed porttitor nisl quis ultricies malesuada. Maecenas felis ipsum, molestie a elementum at, rutrum a nulla",
-        
+            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies."
         },
         {
             img: profilePic6,
-            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies. Vestibulum non dictum nibh. Phasellus efficitur blandit ipsum, sit amet venenatis tellus consectetur id. Sed porttitor nisl quis ultricies malesuada. Maecenas felis ipsum, molestie a elementum at, rutrum a nulla",
-        
+            reviews: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur consectetur urna, ac ullamcorper nisl pellentesque iaculis. Pellentesque et ligula ut quam dignissim condimentum vel eget nibh. Morbi eu ultrices velit. Etiam faucibus mi ac mattis ultricies."
         }
     ]
     return(

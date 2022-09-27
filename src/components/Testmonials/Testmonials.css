@@ -68,6 +68,10 @@
     .t-wrapper{
         padding: 0;
     }
+    .testimonials{
+        width: 280px;
+        height: 350px;
+    }
     .testimonials>img{
         width: 70px;
         height: 70px;

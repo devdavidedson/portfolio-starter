@@ -39,6 +39,7 @@
 .cards>*{
     position: absolute;
 }
+
 .s-blur{
     top: 13rem;
     left: -18rem;
